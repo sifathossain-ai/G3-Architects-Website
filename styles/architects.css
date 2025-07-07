@@ -273,6 +273,10 @@ main {
 
 /* Sponsors Section Style */
 
+.sponsors{
+  margin-bottom: 150px;
+  text-align: center;
+}
 .sponsor-info{
     max-width: 542px;
     margin: 50px auto;
@@ -280,6 +284,17 @@ main {
 }
 
 .sponsor-companies{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponsor-companies img{
+  filter: grayscale(100%);
+}
+
+.sp-description{
+  background-color: #FFF4E7;
+  margin-top: 130px;
+  padding: 30px;
+  border-radius: 8px;
 }
