@@ -221,7 +221,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 124px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 130px;
 }
 
@@ -269,4 +269,17 @@ main {
     .facts-about{
         width: 100%;
     }
+}
+
+/* Sponsors Section Style */
+
+.sponsor-info{
+    max-width: 542px;
+    margin: 50px auto;
+    text-align:center;
+}
+
+.sponsor-companies{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
