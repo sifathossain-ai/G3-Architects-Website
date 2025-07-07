@@ -274,7 +274,7 @@ main {
 /* Sponsors Section Style */
 
 .sponsors{
-  margin-bottom: 150px;
+  margin-bottom: 130px;
   text-align: center;
 }
 .sponsor-info{
@@ -292,9 +292,17 @@ main {
   filter: grayscale(100%);
 }
 
+/* Footer Section Style */
+
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .sp-description{
   background-color: #FFF4E7;
-  margin-top: 130px;
   padding: 30px;
   border-radius: 8px;
+  margin-bottom: 150px;
 }
