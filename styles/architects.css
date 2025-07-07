@@ -42,6 +42,11 @@
     font-size: 1.15rem;
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* Navbar Styles */
 
 .navbar{
@@ -100,4 +105,30 @@
     .banner-title{
         font-size: 3rem;
     }
+}
+
+/* Main Styles */
+
+.teams{
+    display: flex;
+    margin-top: 85px;
+    gap: 72px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+.teams-title{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 24px;
+}
+
+.teams-description{
+    margin-bottom: 32px;
 }
