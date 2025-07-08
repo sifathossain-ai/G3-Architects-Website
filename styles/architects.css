@@ -255,9 +255,7 @@ main {
     .facts-item{
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
-    }
-    .facts-about{
-        width: 100%;
+        justify-items: center;
     }
 }
 
@@ -265,9 +263,7 @@ main {
     .facts-item{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
-    }
-    .facts-about{
-        width: 100%;
+        justify-items: center;
     }
 }
 
@@ -284,8 +280,8 @@ main {
 }
 
 .sponsor-companies{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .sponsor-companies img{
@@ -305,4 +301,21 @@ footer {
   padding: 30px;
   border-radius: 8px;
   margin-bottom: 150px;
+}
+
+@media screen and (max-width: 576px) {
+  .sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+  }  
+}
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .sponsor-companies{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        justify-items: center;
+    }
 }
